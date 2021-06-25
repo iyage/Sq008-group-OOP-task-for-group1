@@ -41,14 +41,14 @@ public class Main {
         // printout the list of the company staff;
         aa:for(Staff staff:company.getStaff()){
             try {
-                System.out.println(staff.getEmployeeName()+" "+ staff.getDepartment());
+                System.out.println("Staff name :"+ " "+ staff.getEmployeeName()+" "+ "Department:"+staff.getDepartment());
             }
            catch (NullPointerException exception){
                 continue aa;
            }
         }
         // printout the list applicant
-        for (Applicant applicant:applicants) {
+        for (Applicant applicant:company.getApplicant()) {
             System.out.println("Applicant Name :"+applicant.getName()+"-"+"Applicant years of Experience :"+applicant.getYearsOfExperience()
                     +"-"+"Department applied for : "+applicant.getDepartment()+ "-"+" Qualification: "+applicant.getQualification()+"-"+"Age:"+applicant.getAge()  );
         }

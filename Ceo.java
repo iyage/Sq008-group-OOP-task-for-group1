@@ -24,6 +24,7 @@ public class Ceo {
         }
         return  staff;
     };
+    //method to fire staff base on metic
     public  void fire(Staff staff){
        if(staff.getWorkRate()== "Low"){
            System.out.println(staff.getEmployeeId() +" "+ "is fired");
@@ -32,6 +33,7 @@ public class Ceo {
            System.out.println(staff.getEmployeeName()+" "+"is the staff of the month");
        }
     }
+    // Method to increase salary base on metirc
     public void increaseSalary(Staff staff) {
         if (staff.getWorkRate() == "High") {
             System.out.println("Increase the  salary of" + " "+ staff.getEmployeeId());
