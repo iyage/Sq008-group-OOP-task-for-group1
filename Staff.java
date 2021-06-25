@@ -16,7 +16,7 @@ public class Staff {
         return department;
     }
 
-    //private  String[] workRate = {"High","Average","Low"};
+    //private  String[] workRates = {"High","Average","Low"};
     private  String workRate;
 
     public String getWorkRate() {

@@ -6,7 +6,7 @@ final public class Cleaner extends Staff {
     }
 
     public void clean() {
-        System.out.println("mop and Scrub the surface properly");
+        System.out.println("Mop and Scrub the surface properly with a brush");
     }
 
     public void askForRaise() {
