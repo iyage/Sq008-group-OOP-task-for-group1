@@ -1,6 +1,6 @@
 package com.company;
 
-public class Account  extends  Staff{
+final public class Account  extends  Staff{
     public Account(String employeeName, String employeeId, int salary, Boolean markAttendance,String department) {
         super(employeeName, employeeId, salary, markAttendance,department);
     }

@@ -1,6 +1,6 @@
 package com.company;
 
-public class Cleaner extends Staff {
+final public class Cleaner extends Staff {
     public Cleaner(String employeeName, String employeeId, int salary, Boolean markAttendance,String department) {
         super(employeeName, employeeId, salary, markAttendance,department);
     }

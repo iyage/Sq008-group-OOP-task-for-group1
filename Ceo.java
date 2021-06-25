@@ -1,9 +1,9 @@
 package com.company;
 
-public class Ceo {
+final public class Ceo {
     private String name;
 
-    public Ceo(String name) {
+  public Ceo(String name) {
         this.name = name;
     }
 

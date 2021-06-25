@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 // Creating company which composes of Ceo/Applicant classes and Staff class as an Array
-public class Company {
+final public class Company {
     private  Ceo ceo;
     private ArrayList<Applicant> applicant;
     private String address;

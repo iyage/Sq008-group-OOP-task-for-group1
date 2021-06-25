@@ -1,6 +1,6 @@
 package com.company;
 
-public class Applicant {
+final public class Applicant {
     public Applicant(int yearsOfExperience, String name, String qualification, int age,String department) {
         this.yearsOfExperience = yearsOfExperience;
         this.name = name;
